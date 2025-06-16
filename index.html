@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="To-dostyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="weight-loss-checklist_450309-1676.avif" ></h2>
+            <select id="prioritySelector">
+            <option value="all">Select </option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add the task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!--<li class="checked">task1</li>
+                <li>task2</li>
+                <li>task3</li>-->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html><
