@@ -106,29 +106,6 @@ ul li span{
 ul li span:hover{
     background: #686464;
 }
-/*#list-container>li{
-    width: 100%;
-    position: relative;
-    color: #555;
-}
-#list-container>li>span{
-    position: absolute;
-    right: 0px;
-}
-#list-container>li>span:first-child{
-    right: 30px;
-}
-/*
-#filterPriority {
-    margin: 50%;
-    padding: 8px;
-    font-size: 16px;
-    border-radius: 20px;
-    border: 1px solid #999;
-
-}
-
- Style for priority text inside each task */
 
 #prioritySelector {
     font-size: 14px;
